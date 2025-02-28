@@ -1,0 +1,21 @@
+#ConnectBtn {
+    background: linear-gradient(to right, #4b79a1, #283e51);
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#ConnectBtn:hover {
+    background: linear-gradient(to right, #3a6385, #1f2e3b);
+    transform: translateY(-2px);
+}
+
+#ConnectBtn:active {
+    transform: scale(0.98);
+}

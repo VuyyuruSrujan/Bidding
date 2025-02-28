@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "Bidding_ICP_backend": {
+      "main": "src/Bidding_ICP_backend/main.mo",
+      "type": "motoko"
+    },
+    "Bidding_ICP_frontend": {
+      "dependencies": [
+        "Bidding_ICP_backend"
+      ],
+      "source": [
+        "src/Bidding_ICP_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "Bidding_ICP_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
